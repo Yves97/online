@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Playfair+Display&display=swap');
+
+/*GENERALE*****************************************/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #111111;
+}
+
+
+/*HEADER*****************************************/
+
+
+.navbar{
+    background: #171717 !important;
+    box-shadow: 0px 20px 24px -12px rgba(0, 0, 0, 0.658);
+}
+
+.navbar-nav{
+    margin:0 auto;
+}
+
+.nav-item .nav-link{
+    color: white !important;
+    transition: 0.8s;
+}
+
+.nav-item .nav-link:hover{
+    color: #d4b068 !important;
+    transition:0.8s;
+}
+
+.navbar-brand p{
+    color: #fff;
+    font-style: italic;
+}
+
+/*SECTION1*****************************************/
+
+
+#section1{
+    height: 100vh;
+    padding-top: 100px;
+    background: url('../images/sl1-1.jpg') top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.middle{
+    padding-top:120px;
+}
+
+.section1-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width:100%;
+    background: rgba(0, 0, 0, 0.425);
+}
+
+.section1-content h3, .section1-content h5{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.section1-button{
+    padding: 10px 50px;
+    background: #d4b068c2;
+    color: white;
+    border:none;
+    transition: 0.8s;
+}
+
+.section1-button:hover, .section1-button:focus{
+    background: #d4b068ec;
+    outline: none;
+    transition:0.8s;
+}
+
+
+/*SECTION2*****************************************/
+
+
+#section2{
+    padding: 100px 0;
+    
+}
+
+.section-title{
+    padding-bottom: 50px;
+}
+.section-title h3{
+    padding-bottom: 7px;
+    color: #111111;
+}
+
+.section-title h6{
+    color: #7e7e7e;
+}
+
+.service-title{
+    color: #111111;
+    transition: 0.5s;
+}
+
+.service-title:hover{
+    color: #d4b068;
+    transition: 0.5s;
+}
+
+.logo-service{
+    font-size: 50px;
+    padding: 25px 0;
+    color: #d4b068;
+}
+
+.service-desc{
+    padding-top:10px;
+    color: #8f8f8f;
+}
+
+/*SECTION3*****************************************/
+
+#section3{
+    background: url('../images/ribbon.jpeg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.style-bar{
+    height:80px;
+    width:50%;
+    background: white;
+    border-bottom-right-radius:7px;
+    position: absolute;
+}
+
+.section3-content{
+    padding: 100px 0;
+}
+
+.section3-content h2{
+    color: white;
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+.section3-button{
+    color: white;
+    background: rgba(0, 0, 0, 0.733);
+    padding: 10px 50px;
+    border: 1px solid white;
+    transition:0.5s;
+}
+
+.section3-button:hover, .section3-button:focus{
+    background: rgba(255, 255, 255, 0.473);
+    outline:none;
+    transition:0.5s;
+}
+
+/*SECTION4*****************************************/
+
+
+#section4{
+    padding-bottom: 70px;
+}
+
+.section4-title{
+    color: #111111;
+    padding-top: 70px;
+    padding-bottom: 80px;
+}
+.section4-title h3{
+    padding-bottom: 7px;
+    color: #111111;
+}
+
+.section4-title h6{
+    color: #7e7e7e;
+}
+
+.fig-content{
+    padding-bottom:40px;
+}
+
+
+.figure{
+    border: 3px solid gray;
+    box-shadow: 6px 32px 24px -19px rgba(0, 0, 0, 0.185);
+}
+
+.figure img{
+    padding: 10px;
+}
+
+.fig-logo{
+    color: #7e7e7e;
+    text-align: center;
+    transition: 0.5s;    
+}
+
+.fig-logo:hover{
+    color: #d4b068c2;
+    transition: 0.5s;
+}
+
+/*SECTION5*****************************************/
+
+
+#section5{
+    padding: 40px 0;
+}
+
+.carousel-item{
+    height:400px;
+    padding: 50px 0;
+    background: #1f1f1f;
+}
+
+.carousel-presentation{
+    height: 100%;
+
+}
+
+.carousel-presentation img{
+    height: 100px;
+    border: 3px solid #7e7e7e;
+    border-radius: 100%;
+}
+
+.carousel-text{
+    color: #7e7e7e;
+}
+
+.carousel-text h5{
+    color: white;
+}
+
+.carousel-text a{
+    color: #7e7e7e;
+    transition: 0.5s;
+}
+
+.carousel-text a:hover{
+    color: #8f8f8f;
+    transition: 0.5s;
+}
+
+.carousel-text p{
+    padding-top:10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Section6*********************************/
+
+
+#section{
+    color: #fff;
+    background: rgba(83, 0, 0, 0.918);
+}
+
+.section6-content{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+.section6-content h2, .section6-content h5{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.section6-content h2{
+    font-size: 40px;
+}
+
+.section6-content h5{
+    color: #7e7e7e;
+    padding-bottom: 40px;
+}
+
+.card{
+    
+    border: none;
+    box-shadow: 0px 35px 27px -1px rgba(0, 0, 0, 0.192);
+    transition: 0.8s;
+}
+
+.card-title img{
+    padding: 0;
+    margin: 0;
+    border: none;
+    width:100%;
+    height:184px;
+}
+
+
+.card-title h4, .card-title p{   
+    padding-top:10px;
+    color:black;
+}
+
+.section6-button{
+    color: #8f8f8f;
+    background: white;
+    padding: 7px 15px;
+    border: 1px solid #8f8f8f;
+    transition:0.8s;
+}
+
+.section6-button:hover{
+    color: #d4b068;
+    border: 1px solid #d4b068;
+    transition:0.8s;
+}
+
+/*Section6*********************************/
+
+
+footer{
+    background: #171717;
+}
+
+.content-footer, .space{
+    padding: 50px 0;
+}
+
+.footer-title h2{
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:#fff;
+    font-size:40px;
+}
+
+.footer-title h5{
+    color: #ddd;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-desc p{
+    text-align: left;
+    color: #7e7e7e;
+}
+
+.footer-logo{
+    padding-bottom:40px;    
+    text-align: center;
+    color: #d4b068;
+    font-size:40px;
+}
+
+.form-group input{
+    padding: 21px 0 21px 7px;
+}
+
+textarea{
+    padding-left: 7px;
+}
+
+.form-group input:focus,textarea:focus{
+    outline: none;
+}
+
+.form-group input, textarea{
+    border-radius:7px;
+    border:none;
+}
+
+.btn-submit{
+    padding-top:20px;
+}
+
+.button-submit{
+    padding: 10px 120px;
+    border:1px solid #fff;
+    background:#7e7e7e;
+    color: #fff;
+    font-weight:bold;
+    transition: 0.5s;
+}
+
+.button-submit:hover{
+    background: #cfcfcf;
+    transition:0.5s;
+}
+
+.fa-arrow-up{
+    border:1px solid #d4b068;
+    font-size: 25px;
+    color: #d4b068;
+    box-shadow: 0px 39px 49px -12px rgba(0,0,0,1);
+    background: transparent;
+    padding: 10px;
+    transition: 0.8s;
+}
